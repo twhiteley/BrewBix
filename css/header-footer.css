@@ -19,6 +19,7 @@ header.sticky {
 picture.hamburger {
     max-width: 5vw;
     margin: 1em;
+    display: var(--menuDisplay);
 }
 
 .title  {
@@ -73,7 +74,7 @@ header a {
         height: var(--headerHeight)
     }
     header nav {
-        display: flex;
+        display: var(--menuDisplay);
         margin-left: 3em;
     }
 }
@@ -120,6 +121,20 @@ aside li {
     font-size: 2rem;
 }
 
+/* hiding nav items to pages that aren't ready */
+
+a.ingredients {
+    display: var(--ingredientsDisplay);
+    border: 2px solid red;
+}
+
+a.beer {
+    display: var(--beerDisplay);
+}
+
+a.stockists {
+    display: var(--stockistsDisplay)
+}
 
 /* footer */
 
