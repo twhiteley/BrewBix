@@ -6,10 +6,10 @@
     --desktopHeader: 100px;
     --headerHeight: 80px;
     --shortHeader: 60px;
-    --beerDisplay: none;
-    --stockistsDisplay: none;
-    --ingredientsDisplay: none;
-    --menuDisplay: none;
+    --beerDisplay: flex;
+    --stockistsDisplay: flex;
+    --ingredientsDisplay: flex;
+    --menuDisplay: flex;
 }
 
 *   {

@@ -128,16 +128,15 @@ aside li {
 
 /* hiding nav items to pages that aren't ready */
 
-a.ingredients {
+a.ingredients-link {
     display: var(--ingredientsDisplay);
-    border: 2px solid red;
 }
 
-a.beer {
+a.beer-link {
     display: var(--beerDisplay);
 }
 
-a.stockists {
+a.stockists-link {
     display: var(--stockistsDisplay)
 }
 
