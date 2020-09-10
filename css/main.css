@@ -1,0 +1,122 @@
+/* hero */
+
+.hero {
+    margin-top: var(--headerHeight);
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/footsteps.jpg);
+    color: var(--color2);
+    background-size: cover;
+    background-position: center 40%;
+    height: 40vh;
+    position: relative;
+}
+
+.hero-text    {
+    position: absolute;
+    width: 45vw;
+    right: 5%;
+    top: 0%;
+}
+
+@media (min-width: 500px) {
+    .hero {
+        height: 40vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .hero {
+        margin-top: var(--desktopHeader);
+        height: 30vw;
+    }
+}
+
+/* about section */
+
+.about  {
+    background-color: var(--color3);
+    color: var(--color2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-text {
+    padding: 1em;
+    width: 50%;
+}
+
+.about h3 {
+    margin-top: 0;
+}
+
+.about a {
+    color: var(--color2);
+    max-width: 20vw;
+    min-width: 100px;
+    text-align: center;
+}
+
+/* beer section */
+
+.about-beer {
+    background-color: var(--color2);
+}
+
+.beer-with-dog {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.beer-desc {
+    max-width: 50vw;
+}
+
+.beer {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .about-text {
+        width: 30vw;
+    }
+    .about-beer {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .beer-desc {
+        width: 30vw;
+    }
+    .beer-with-dog {
+        width: 60vw;
+    }
+    .beer {
+        display: block;
+        width: 30vw;
+    }
+}
+
+/* Launch section */
+
+.launch {
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+.launch h4 {
+    margin: 0 auto;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.launch p {
+    text-align: center;
+}
+
+.launch form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1em;
+    border: none;
+}
