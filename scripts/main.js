@@ -2,11 +2,18 @@
 
 const header = document.querySelector("header")
 const title = document.querySelector(".title")
-window.addEventListener("scroll",changeHeader)
+
+
+let i = 0
+
+//throttling code
+let last_known_scroll_position = 0;
+let ticking = false;
 
 function changeHeader() {
     let scrollPosition = Math.round(window.scrollY)
-    console.log(scrollPosition);
+    i++
+    console.log(scrollPosition,i);
     if(scrollPosition > 50) {
         header.classList.add("sticky")
         title.classList.add("sticky")
@@ -16,6 +23,19 @@ function changeHeader() {
         title.classList.remove("sticky")
     }
 }
+
+window.addEventListener("scroll",function(e) {
+    last_known_scroll_position = window.scrollY;
+  
+    if (!ticking) {
+      window.requestAnimationFrame(function() {
+        changeHeader();
+        ticking = false;
+      });
+  
+      ticking = true;
+    }
+  });
 
 // Hamburger
 
