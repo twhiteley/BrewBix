@@ -33,7 +33,7 @@ h3 {
     font-size: 1.2em;
 }
 
-.button {
+.cta {
     background-color: var(--color1);
     color: var(--color2);
     padding: 1em;
@@ -82,7 +82,7 @@ input[type='submit'] {
     p {
         font-size: 1.2rem;
     }
-    .button {
+    .cta {
         font-size: 1.5rem;;
     }
     h4 {
