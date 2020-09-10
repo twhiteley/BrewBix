@@ -36,7 +36,7 @@
     background-color: var(--color3);
     color: var(--color2);
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -51,7 +51,7 @@
 
 .about a {
     color: var(--color2);
-    max-width: 20vw;
+    max-width: 70%;
     min-width: 100px;
     text-align: center;
     display: var(--ingredientsDisplay);

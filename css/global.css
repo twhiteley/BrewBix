@@ -6,8 +6,8 @@
     --desktopHeader: 100px;
     --headerHeight: 80px;
     --shortHeader: 60px;
-    --beerDisplay: flex;
-    --stockistsDisplay: flex;
+    --beerDisplay: none;
+    --stockistsDisplay: none;
     --ingredientsDisplay: flex;
     --menuDisplay: flex;
 }

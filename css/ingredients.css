@@ -1,0 +1,60 @@
+#ingredients-hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/beer-biscuits.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#ingredients-hero h2 {
+    position: absolute;
+    width: 45vw;
+    right: 5%;
+    top: 0%;
+}
+
+.brewing-grain {
+    display: block;
+    background-color: var(--color3);
+    color: var(--color2);
+    padding: 1em;
+}
+
+.brewing-grain h3 {
+    margin-top: 0;
+}
+
+.brewing-process {
+    display: flex;
+    flex-direction: column;
+}
+
+.brew-steps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brew-step {
+    background-color: var(--color2);
+    display: flex;
+    color: var(--color3);
+    border: 2px solid var(--color1);
+    width: 90vw;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.brew-step div {
+    width: 75%;
+    padding-right: 1rem;
+}
+
+.step-no {
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 3rem;
+}
