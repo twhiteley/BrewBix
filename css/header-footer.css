@@ -31,6 +31,11 @@ picture.hamburger {
     margin: 0.5em 0;
 }
 
+.title a {
+    text-align: center;
+    justify-content: center;
+}
+
 .title.sticky {
     margin: .3em 0;
     transition: 0.5s;
@@ -167,7 +172,6 @@ footer p {
 
 .follow .social-icons {
     display: flex;
-    max-width: 50vw;
     justify-content: space-between;
 
 }
