@@ -4,6 +4,14 @@ I would like some advice on the below topics please.
 ## Header and Footer (and hamburger menu)
 I'd like the same header and footer on multiple pages. I presume we shouldn't copy and paste the same HTML code onto the different pages. Should we create a separate HTML file for each of these that can be imported into others somehow?
 
+### Answer from Robin
+
+There's no good way to import HTML files into one another as standard. If you're only using static HTML, CSS, and JS, you can share CSS across your site, and otherwise copy your components' HTML across your files.
+
+What you might find helpful is **site preprocessors** which can take your templates and use them and generate pages. One that's built into GitHub Pages is [Jekyll](https://jekyllrb.com/). It's also what I use for [my blog](//github.com/rjkerrison/rjkerrison.github.io).
+
+Another site preprocessor which is built for using complicated source data and supports JavaScript frameworks is [Gatsby](https://www.gatsbyjs.com/). It's also possible to get this to work with GitHub pages.
+
 ## Throttling
 I made an animation to change the header when someone scrolls. I read that we should probably throttle the event listener, as it is firing a lot. The advice here involved using some libraries. Should I bother with this?
 
@@ -48,3 +56,7 @@ Some questions I have:
 
 ## HTML files
 I presume we don't put them into separate folders, unless we want the URL path to match that. If I want index.html to be "BrewBix.com" and stockists.html to be BrewBix.com/stockists - how do I need to structure that?
+
+### Answer from Robin
+
+Move your `stockists.html` to `./stockists/index.html`. That way, when you go to `brewbix.com/stockists/`, you will load the page at `./stockists/index.html`.
