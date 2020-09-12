@@ -63,6 +63,10 @@ input[type='submit'] {
     border-radius: 0;
 }
 
+a {
+    color: var(--color1);
+}
+
 @media (min-width: 500px) {
     h2 {
         font-size: 2.5rem;
