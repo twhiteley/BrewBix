@@ -1,0 +1,54 @@
+#beer-hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/brewhouse2.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+#beer-hero h2 {
+    position: absolute;
+    width: 45vw;
+    right: 5%;
+    top: 0%;
+}
+
+.villages {
+    padding: 1em;
+    background-color: var(--color3);
+    color: var(--color2);
+}
+
+.villages-desc {
+    display: flex;
+}
+.villages-desc picture {
+    border: 2px solid var(--color1);
+}
+
+.villages-desc p {
+    margin: 0 0 0 1em;
+}
+
+.buy-beer {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+.beer-images {
+    display: flex;
+}
+
+.beer-images picture {
+    width: 50vw;
+    border: 2px solid var(--color1);
+}
+
+.beer-images picture:first-of-type {
+    border-right: none;
+}
+
+.get-beer {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
