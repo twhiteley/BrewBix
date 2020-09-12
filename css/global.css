@@ -6,7 +6,7 @@
     --desktopHeader: 100px;
     --headerHeight: 80px;
     --shortHeader: 60px;
-    --beerDisplay: none;
+    --beerDisplay: flex;
     --stockistsDisplay: none;
     --ingredientsDisplay: flex;
     --menuDisplay: flex;
