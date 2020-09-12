@@ -80,7 +80,8 @@ header a {
 /* hamburger menu*/
 
 .menu-button {
-    max-width: 50px;
+    width: 7vw;
+    max-width: 40px;
     margin: 1em;
     height: var(--shortHeader);
 }
