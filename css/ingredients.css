@@ -25,11 +25,13 @@
 .brewing-process {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .brew-steps {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .brew-step {
@@ -57,4 +59,99 @@
     text-align: center;
     line-height: 5rem;
     font-size: 3rem;
+}
+
+.brewing-pic {
+    position: relative;
+    display: flex;
+    max-width: 423px;
+}
+
+.brewing-pic span {
+    position: absolute;
+    color: var(--color1);
+    font-size: .9rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.HLT {
+    top: 7%;
+    left: 15%;
+}
+
+.malt {
+    top: 10%;
+    left: 89%;
+}
+
+.mash {
+    top: 25%;
+    left: 70%;
+}
+
+.hops {
+    top: 24%;
+    left: 39%;
+}
+
+.kettle {
+    top: 50%;
+    left: 22%;
+}
+
+.whirl {
+    top: 50%;
+    left: 63%;
+    width: 30%
+}
+
+.heat {
+    top: 69%;
+    left: 48%;
+}
+
+.FV {
+    top: 80%;
+    left: 15%;
+    width: 20%;
+}
+
+.bottle {
+    top: 73%;
+    left: 83%;
+}
+
+.keg {
+    top: 89%;
+    left: 70%;
+}
+
+.brewing-pic .step-no {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.brewing-pic .step-no:nth-of-type(1) {
+    top: 11%;
+    left: 73%;
+}
+
+.brewing-pic .step-no:nth-of-type(2) {
+    top: 30%;
+    left: 23%;
+}
+
+.brewing-pic .step-no:nth-of-type(3) {
+    top: 65%;
+    left: 25%;
+}
+
+.brewing-pic .step-no:nth-of-type(4) {
+    top: 75%;
+    left: 70%;
 }
