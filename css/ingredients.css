@@ -34,6 +34,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 90vw;
+    margin-bottom: 1em;
 }
 
 .brew-step {
@@ -61,6 +63,46 @@
     text-align: center;
     line-height: 5rem;
     font-size: 3rem;
+}
+
+@media (min-width: 500px) {
+    .brew-step {
+        width: 44vw;
+        height: 50%;
+    }
+
+    .brew-steps {
+        flex-wrap: nowrap;
+        justify-content: space-between;   
+    }
+
+    .step-no {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .grain-pints {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .brewing-process {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .brew-steps {
+        width: 44vw;
+        flex-direction: column;
+    }
+    .brew-step {
+        height: unset;
+    }
+    .brewing-process h4 {
+        margin: 0.5em 0;
+        font-size: 2rem;
 }
 
 .brewing-pic {
