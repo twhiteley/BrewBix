@@ -80,6 +80,16 @@
     display: none;
 }
 
+@media (min-width: 500px) {
+    .about {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .about-text {
+        max-width: 50vw;
+    }
+}
+
 @media (min-width: 1000px) {
     .about-text {
         width: 30vw;
