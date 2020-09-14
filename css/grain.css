@@ -1,0 +1,202 @@
+#ingredients-hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/beer-biscuits.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#ingredients-hero h2 {
+    position: absolute;
+    width: 45vw;
+    right: 5%;
+    top: 0%;
+}
+
+/* about brewing */
+
+.brewing-grain {
+    display: block;
+    background-color: var(--color3);
+    color: var(--color2);
+    padding: 1em;
+}
+
+.brewing-grain h3 {
+    margin-top: 0;
+}
+
+.brewing-process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brew-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
+    margin-bottom: 1em;
+}
+
+.brew-step {
+    background-color: var(--color2);
+    display: flex;
+    color: var(--color3);
+    border: 2px solid var(--color1);
+    width: 90vw;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.brew-step div {
+    width: 75%;
+    padding-right: 1rem;
+}
+
+.step-no {
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 3rem;
+}
+
+@media (min-width: 500px) {
+    .brew-step {
+        width: 44vw;
+        height: 50%;
+    }
+
+    .brew-steps {
+        flex-wrap: nowrap;
+        justify-content: space-between;   
+    }
+
+    .step-no {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .grain-pints {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .brewing-process {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .brew-steps {
+        width: 44vw;
+        flex-direction: column;
+    }
+    .brew-step {
+        height: unset;
+    }
+    .brewing-process h4 {
+        margin: 0.5em 0;
+        font-size: 2rem;
+    }
+}
+
+.brewing-pic {
+    position: relative;
+    display: flex;
+    max-width: 423px;
+}
+
+.brewing-pic span {
+    position: absolute;
+    color: var(--color1);
+    font-size: .9rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.HLT {
+    top: 7%;
+    left: 15%;
+}
+
+.malt {
+    top: 10%;
+    left: 89%;
+}
+
+.mash {
+    top: 25%;
+    left: 70%;
+}
+
+.hops {
+    top: 24%;
+    left: 39%;
+}
+
+.kettle {
+    top: 50%;
+    left: 22%;
+}
+
+.whirl {
+    top: 50%;
+    left: 63%;
+    width: 30%
+}
+
+.heat {
+    top: 69%;
+    left: 48%;
+}
+
+.FV {
+    top: 80%;
+    left: 15%;
+    width: 20%;
+}
+
+.bottle {
+    top: 73%;
+    left: 83%;
+}
+
+.keg {
+    top: 89%;
+    left: 70%;
+}
+
+.brewing-pic .step-no {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.brewing-pic .step-no:nth-of-type(1) {
+    top: 11%;
+    left: 73%;
+}
+
+.brewing-pic .step-no:nth-of-type(2) {
+    top: 30%;
+    left: 23%;
+}
+
+.brewing-pic .step-no:nth-of-type(3) {
+    top: 65%;
+    left: 25%;
+}
+
+.brewing-pic .step-no:nth-of-type(4) {
+    top: 75%;
+    left: 70%;
+}
