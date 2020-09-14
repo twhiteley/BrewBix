@@ -13,33 +13,53 @@
 /* ingredients section */
 
 .ingredients {
-    background-color: var(--color2);
-    color: var(--color3);
+    background-color: var(--color3);
+    color: var(--color2);
     padding: 1em;
 }
 
 .added-ingredients {
     display: flex;
+    flex-direction: column;
 }
 
-.ingredient {
-    width: 30vw;
+.tile {
     background-color: var(--color2);
     color: var(--color3);
     border: 2px solid var(--color1);
     border-radius: 5px;
     margin: .25em;
     padding: .25em;
+    display: flex;
 }
 
-.ingredient h4 {
+.tile-text {
+    width: 75%;
+}
+
+.tile h4 {
     color: var(--color1);
     text-align: center;
+    font-size: 1.5rem;
     margin: .5em 0;
 }
-.ingredient p {
+.tile p {
     text-align: center;
     margin: 0;
+}
+
+/* grain section */
+
+.grain-section {
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 1em;
+}
+
+.alcoholic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* nutrition section */
