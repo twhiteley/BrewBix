@@ -190,6 +190,10 @@ footer form {
     padding: 1em;
 }
 
+.icon-link {
+    text-align: center;
+}
+
 @media (min-width: 1000px) {
     footer {
         flex-direction: row;
