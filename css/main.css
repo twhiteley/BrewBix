@@ -145,14 +145,18 @@
 }
 
 .beer-desc {
-    max-width: 70vw;
+    display: flex;
 }
 
-.see-beer {
+.have-beer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
+}
+
+.have-beer p {
+    max-width: 80%;
 }
 
 .beer-pint {
