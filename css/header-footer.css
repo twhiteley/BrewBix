@@ -9,6 +9,7 @@ header  {
     top:0;
     z-index: 1;
     transition: 0.5s;
+    border-bottom: 1px solid var(--color1);
 }
 
 header.sticky {
