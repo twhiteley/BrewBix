@@ -1,35 +1,3 @@
-/* hero */
-
-.hero {
-    margin-top: var(--headerHeight);
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/footsteps.jpg);
-    color: var(--color2);
-    background-size: cover;
-    background-position: center 40%;
-    height: 40vh;
-    position: relative;
-}
-
-.hero-text    {
-    position: absolute;
-    width: 45vw;
-    right: 5%;
-    top: 0%;
-}
-
-@media (min-width: 500px) {
-    .hero {
-        height: 40vw;
-    }
-}
-
-@media (min-width: 1000px) {
-    .hero {
-        margin-top: var(--desktopHeader);
-        height: 30vw;
-    }
-}
-
 /* Launch section */
 
 .launch {

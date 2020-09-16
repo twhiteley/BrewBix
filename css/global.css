@@ -67,32 +67,6 @@ a {
     color: var(--color1);
 }
 
-.tile {
-    background-color: var(--color2);
-    color: var(--color3);
-    border: 2px solid var(--color1);
-    border-radius: 5px;
-    margin: .25em;
-    padding: .25em;
-    display: flex;
-}
-
-.tile-text {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.tile h4 {
-    color: var(--color1);
-    text-align: center;
-    font-size: 1.5rem;
-    margin: .5em 0;
-}
-.tile p {
-    text-align: center;
-    margin: 0;
-}
-
 @media (min-width: 500px) {
     h2 {
         font-size: 2.5rem;
@@ -122,4 +96,64 @@ a {
     h4 {
         font-size: 2.5rem;
     }
+}
+
+/* hero */
+
+.hero {
+    margin-top: var(--headerHeight);
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/footsteps.jpg);
+    color: var(--color2);
+    background-size: cover;
+    background-position: center 40%;
+    height: 40vh;
+    position: relative;
+}
+
+.hero-text    {
+    position: absolute;
+    width: 45vw;
+    right: 5%;
+    top: 0%;
+}
+
+@media (min-width: 500px) {
+    .hero {
+        height: 40vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .hero {
+        margin-top: var(--desktopHeader);
+        height: 30vw;
+    }
+}
+
+/* tiles */
+
+.tile {
+    background-color: var(--color2);
+    color: var(--color3);
+    border: 2px solid var(--color1);
+    border-radius: 5px;
+    margin: .25em;
+    padding: .25em;
+    display: flex;
+}
+
+.tile-text {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.tile h4 {
+    color: var(--color1);
+    text-align: center;
+    font-size: 1.5rem;
+    margin: .5em 0;
+}
+.tile p {
+    text-align: center;
+    margin: 0;
 }

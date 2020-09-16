@@ -1,5 +1,5 @@
 #ingredients-hero {
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/beer-biscuits.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/finger\ paw.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -10,6 +10,13 @@
     right: 5%;
     top: 0%;
 }
+
+@media (min-width: 500px) {
+    #ingredients-hero {
+        background-position: center 30%;
+    }  
+}
+
 /* ingredients section */
 
 .ingredients {
