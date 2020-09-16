@@ -23,14 +23,14 @@
     flex-direction: column;
 }
 
-/* .two-ingredients {
+.two-ingredients {
     display: flex;
     flex-direction: column;
 }
 
 .added-ingredients .tile {
     height: 50%;
-} */
+}
 
 @media(min-width: 500px) {
     .added-ingredients {
@@ -67,10 +67,13 @@
 @media(min-width: 500px) {
     .alcoholic {
         flex-direction: row;
-        justify-content: space-evenly;
     }
     .alcoholic-text {
         width: 50vw;
+    }
+
+    .alcoholic .cta {
+        margin: 0 auto;
     }
 }
 
@@ -80,4 +83,20 @@
     background-color: var(--color3);
     color: var(--color2);
     padding: 1em;
+}
+
+@media(min-width: 1000px) {
+    .benefits {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .two-benefits {
+        width: 45vw;
+    }
+    .two-benefits .tile {
+        height: 50%;
+    }
+    .benefits .tile-text {
+        padding-bottom: 1px;
+    }
 }
