@@ -41,12 +41,16 @@
 
 @media(min-width: 500px) {
     .added-ingredients {
-        flex-direction: row;
+        align-items: center;
+    }
+    .four-ingredients {
+        display: flex;
         justify-content: space-evenly;
     }
     .added-ingredients .tile {
         width: 45vw;
     }
+
 }
 
 /* grain section */
@@ -92,18 +96,25 @@
     padding: 1em;
 }
 
+.two-benefits {
+    display: flex;
+    flex-direction: column;
+}
+
 @media(min-width: 1000px) {
     .benefits {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .four-benefits {
+        display: flex;
         justify-content: space-evenly;
     }
-    .two-benefits {
+    .benefits .tile{
         width: 45vw;
     }
     .two-benefits .tile {
         height: 50%;
-    }
-    .benefits .tile-text {
-        padding-bottom: 1px;
     }
 }
