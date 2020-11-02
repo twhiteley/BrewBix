@@ -1,5 +1,5 @@
 #beer-hero {
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/brewhouse2.jpeg);
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/brewhouse2-mobile.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -9,6 +9,22 @@
     width: 45vw;
     right: 5%;
     top: 0%;
+}
+
+@media (min-width: 500px) {
+    #beer-hero {
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/brewhouse2-tablet.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+@media (min-width: 1000px) {
+    #beer-hero {
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/brewhouse2.jpeg);
+        background-size: cover;
+        background-position: top;
+    }
 }
 
 .villages {

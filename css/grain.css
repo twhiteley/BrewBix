@@ -1,5 +1,5 @@
 #grain-hero {
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/beer-biscuits.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/beer-biscuits-mobile.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -9,6 +9,22 @@
     width: 45vw;
     right: 5%;
     top: 0%;
+}
+
+@media (min-width: 500px) {
+    #grain-hero {
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/beer-biscuits-tablet.jpg);
+        background-size: cover;
+        background-position: top;
+    }  
+}
+
+@media (min-width: 1000px) {
+    #grain-hero {
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/beer-biscuits.jpg);
+        background-size: cover;
+        background-position: top;
+    }  
 }
 
 /* about brewing */
