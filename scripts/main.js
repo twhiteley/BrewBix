@@ -40,11 +40,21 @@ window.addEventListener("scroll",function(e) {
 // Hamburger
 
 const menuButton = document.querySelectorAll(".menu-button")
-const menu = document.querySelector('aside')
+const menu = document.querySelector('.menu')
 menuButton.forEach(function(button) {
     button.addEventListener("click",toggleNav)
 })
 
 function toggleNav() {
     menu.classList.toggle('show')
+}
+
+// Cookie Banner
+
+const closeCookieBanner = document.querySelector('.close-banner')
+const cookieBanner = document.querySelector('.cookie-message')
+closeCookieBanner.addEventListener("click",closeBanner)
+
+function closeBanner() {
+  cookieBanner.classList.add('hide')
 }

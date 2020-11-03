@@ -87,7 +87,7 @@ header a {
     height: var(--shortHeader);
 }
 
-aside {
+.menu {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -98,7 +98,7 @@ aside {
     transition: 0.5s;
 }
 
-aside.show {
+.menu.show {
     left: 0;
     transition: 0.5s;
 }
@@ -108,19 +108,19 @@ aside.show {
     position: absolute;
 }
 
-aside ul {
+.menu ul {
     list-style: none;
     padding-inline-start: 0;
     position: absolute;
     top: var(--headerHeight);
 }
 
-aside a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-aside li {
+.menu li {
     padding: 1em;
     width: 100vw;
     font-size: 2rem;

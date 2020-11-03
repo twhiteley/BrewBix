@@ -212,3 +212,29 @@
         width: 30vw;
     }
 }
+
+.cookie-message {
+    background-color: var(--color1);
+    color: var(--color2);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    max-height: 100px;
+    min-height: 72px;
+}
+
+.cookie-message p {
+    width: 80%;
+    margin: 1em;
+    align-self: center;
+}
+
+.cookie-message picture {
+    margin: 1em;
+}
+
+.cookie-message.hide {
+    bottom: -100px;
+    transition: 1s;
+}
