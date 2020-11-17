@@ -17,23 +17,35 @@ header.sticky {
     transition: 0.5s;
 }
 
-.title  {
+.brewbix-logo  {
     position: absolute;
     width: 60vw;
     left: 20vw;
-    text-align: center;
     transition: 0.5s;
     margin: 0.5em 0;
 }
 
-.title a {
+.brewbix-logo img {
+    max-height: var(--shortHeader);
+    transition: 0.5s;
+    margin: auto;
+}
+
+
+.brewbix-logo a {
     text-align: center;
     justify-content: center;
 }
 
-.title.sticky {
+.brewbix-logo.sticky {
     margin: .3em 0;
     transition: 0.5s;
+}
+
+.brewbix-logo.sticky img {
+    padding-bottom: 10px;
+    transition: 0.5s;
+
 }
 
 header nav {
@@ -49,24 +61,29 @@ header ul {
 header li {
     padding: 0.5em;
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-    display: flex;
-    align-items: center;
 }
 
 @media (min-width: 1000px) {
     picture.hamburger {
         display: none;
     }
-    .title {
+    .brewbix-logo {
         position: static;
         width: max-content;
         padding-left: 1em;
     }
+
+    .brewbix-logo img {
+        max-height: var(--headerHeight);
+    }
+
     header {
         height: var(--desktopHeader);
     }
@@ -115,15 +132,15 @@ header a {
     top: var(--headerHeight);
 }
 
-.menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .menu li {
     padding: 1em;
     width: 100vw;
     font-size: 2rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* hiding nav items to pages that aren't ready */
@@ -150,12 +167,11 @@ footer {
     border-top: 1px solid var(--color1);
 }
 
-footer h2 a {
-    color: inherit;
-    text-decoration: none;
+footer .brewbix-logo {
+    position: static;
 }
 
-footer h4 {
+footer h3 {
     margin: 0;
 }
 
@@ -199,15 +215,16 @@ footer form {
     footer {
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
         padding: 0 2em;
     }
     .follow {
         width: 30vw;
     }
-    footer h2 {
+    footer .brewbix-logo {
         position: absolute;
         width: 30vw;
         left: 35vw;
-        text-align: center; 
+        align-self: center;
     }
 }

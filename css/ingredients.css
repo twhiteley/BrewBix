@@ -4,7 +4,7 @@
     background-position: top;
 }
 
-#ingredients-hero h2 {
+#ingredients-hero h1 {
     position: absolute;
     width: 45vw;
     right: 5%;
@@ -77,7 +77,7 @@
     align-items: center;
 }
 
-.alcoholic h3 {
+.alcoholic h2 {
     align-self: flex-start;
 }
 

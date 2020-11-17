@@ -5,7 +5,7 @@
     color: var(--color2);
 }
 
-.launch h3 {
+.launch h2 {
     margin: 0 auto;
     padding-top: 1em;
     text-align: center;
@@ -65,7 +65,7 @@
     width: 70%;
 }
 
-.about h3 {
+.about h2 {
     margin-top: 0;
 }
 
@@ -93,7 +93,7 @@
     width: 70%;
 }
 
-.bix-ingredients h3 {
+.bix-ingredients h2 {
     margin-top: 0;
 }
 
@@ -217,6 +217,7 @@
     background-color: var(--color1);
     color: var(--color2);
     position: fixed;
+    z-index: 1;
     bottom: 0;
     width: 100%;
     display: flex;

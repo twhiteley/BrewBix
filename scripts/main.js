@@ -1,7 +1,7 @@
 //change header as user scroll
 
 const header = document.querySelector("header")
-const title = document.querySelector(".title")
+const title = document.querySelector(".brewbix-logo")
 
 //used to check how many times changeHeader() function is firing
 let i = 0

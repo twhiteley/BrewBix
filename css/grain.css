@@ -4,7 +4,7 @@
     background-position: top;
 }
 
-#grain-hero h2 {
+#grain-hero h1 {
     position: absolute;
     width: 45vw;
     right: 5%;
@@ -36,7 +36,7 @@
     padding: 1em;
 }
 
-.brewing-grain h3 {
+.brewing-grain h2 {
     margin-top: 0;
 }
 
@@ -112,7 +112,7 @@
     .brew-step {
         height: unset;
     }
-    .brewing-process h4 {
+    .brewing-process h3 {
         margin: 0.5em 0;
         font-size: 2rem;
     }
