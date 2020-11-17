@@ -1,0 +1,53 @@
+#stockists-hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/leo-mobile.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#stockists-hero h2 {
+    position: absolute;
+    width: 45vw;
+    right: 5%;
+    top: 0%;
+}
+
+@media (min-width: 500px) {
+    #stockists-hero {
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/leo-tablet.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
+
+@media (min-width: 1000px) {
+    #stockists-hero {
+        background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(21, 145, 10, 0.1) ), url(../images/leo.jpeg);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
+
+.amazon {
+    display: block;
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 1em;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pouch {
+    max-height: 30vh;
+    margin: auto;
+}
+
+@media (min-width: 500px) {
+    .product    {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
