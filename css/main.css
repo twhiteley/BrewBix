@@ -3,6 +3,9 @@
 .launch {
     background-color: var(--color3);
     color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .launch h2 {
@@ -21,6 +24,12 @@
     justify-content: center;
     padding-bottom: 1em;
     border: none;
+}
+
+.buy-button {
+    text-align: center;
+    margin: 1em auto;
+    padding: 1em 2em;
 }
 
 @media (min-width: 500px){
